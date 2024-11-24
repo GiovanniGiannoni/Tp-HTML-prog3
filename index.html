@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hola</title>
+    <style>
+        table{
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 1px;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header,footer{
+            background-color: black;
+            color: beige;
+            text-align: center;
+            padding: 8px;
+        }
+        main{
+            padding: 10px;
+        }
+        section{
+            margin-bottom: 20px;
+            border: 1px solid gray;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Aca esta el header -->
+    <header>
+        <h1>Encabeado principal</h1>
+
+    </header>
+
+    <!-- Aca esta el main -->
+    <main>
+        <section id="Estructura">
+            <h2>1.Estructura Basica del Documento HTML</h2>
+            
+        </section>
+        <article>
+            <p>Descripcion de la Estructura</p>
+            <p>Informacion complementaria</p>
+            <p>2024 Trabajo Practico de HTML</p>
+        </article>
+    
+        
+        
+    <!-- Encabezados -->
+    <div>
+        <section id="Encabezado">
+            <h2>2.Encabezados y propiedades del texto</h2>
+        </section>
+        <article>
+            <h2><strong>Este es un texto en negrita y en h2</strong></h2>
+            <h3><em>este es un texto en cursiva y en h3</em></h3>
+            <h4><mark>este es un texto resaltado y en h4</mark></h4>
+            <h5><u>este es un texto subrayado y en h5</u></h5>
+            <h6><b>es un h6 y en negrita</b></h6>
+
+        </article>
+        
+        
+
+    </div>
+    <!-- Divisiones y Agrupación de Contenido -->
+    <section id="Divisiones">
+        <h1>3.Divisiones y Agrupación de Contenido</h1>
+    </section>
+    <article>
+        <div>      
+            <strong>Sección 1</strong>
+            <p>Contenido de la primera seccion agrupada en un div</p>
+        </div>
+        <div>
+            <strong>Sección 2</strong>
+            <p>Contenido de la segunda seccion agrupada en un div</p>
+        </div>
+
+    </article>
+    
+
+    <!-- Enlaces y Listas -->
+    <section id="Enlaces">
+        <h1>4.Enlaces y Listas</h1>
+        <p>Visita nuestro <a href="https://es.wikipedia.org/wiki/HTML" target="_blank">sitio web</a>  para mas informacion</p>
+    </section>
+    <article>
+        <div>
+            <h3>Enlaces internos</h3>
+            <ul>
+                <li><a href="#Encabezado">Ir al Encabezado</a></li>
+                <li><a href="#Divisiones">Ir a las Divisiones</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>primer item de una lista desordenada</li>
+                <li>segundo item de una lista desordenada</li>
+            </ul>
+        </div>
+    
+        <div>
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>primer item de una lista ordenada</li>
+                <li>segundo item de una lista ordenada</li>
+            </ol>
+        </div>
+        
+
+    </article>
+
+    <!-- Elementos multimedia -->
+    <section id="Elementos">
+        <h1>5.Elementos Multimedia</h1>
+
+    </section>
+    <article>
+        <div>
+            <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" alt="es una imagen" width="300px" height="200px"/>
+            <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="300px" height="200px" ></video>
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"controls></audio>
+        </div>
+
+    </article>
+    
+    
+
+    <!-- Tablas -->
+    <section id="tablas">
+        <h1>6.Tablas</h1>
+
+    </section>
+    <article>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                    
+                <tbody>
+                    <tr>
+                        <td>dato1</td>
+                        <td>dato2</td>
+                    </tr>
+    
+                    <tr>
+                        <td>dato3</td>
+                        <td>dato4</td>
+                    </tr>
+    
+                </tbody>
+            </table>
+        </div>
+    </article>
+    
+    
+    <!-- Formulario -->
+    <section id="Formulario">
+        <h1>7.Formulario</h1>
+
+    </section>
+    <article>
+        <div>
+            <form>
+                <label>Nombre:</label>
+                <input type="text">
+    
+                <label>Email:</label>
+                <input type="email">
+    
+                
+                <div>
+                    <label>Mensaje:</label>
+                    <textarea> </textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </article>   
+    </main>
+    <!-- Semantica -->
+    <footer>
+        Pie de la pagina
+    </footer>
+</body>
+</html>
